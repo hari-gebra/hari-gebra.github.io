@@ -1,5 +1,22 @@
 
 <html>
+  <head><!-- Everloop SDK Loader -->
+<script>
+const style = document.createElement("style");
+style.innerHTML = "body { opacity: 0 !important; }";
+const cfhide = () => document.head.appendChild(style);
+const cfshow = () => style.remove();
+cfhide();
+setTimeout(cfshow, 2000);
+document.addEventListener("everloop:show", cfshow);
+window.EFQ = window.EFQ || [];
+window.EFQ.push({
+  config: {
+    projectId: "KwrWDzplCWv2QHoo",
+  },
+});
+</script>
+<script async src="https://cdn-prod.geteverloop.com/everloop.min.js?project_id=KwrWDzplCWv2QHoo"></script></head>
   <body>
     <h1> Browser is Chrome </h1>
   </body>
