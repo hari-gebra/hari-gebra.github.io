@@ -4,7 +4,7 @@
 <!-- Everloop SDK Loader --> 
 <link
     rel="preload"
-    href="https://cdn-dev.geteverloop.com/everloop.min.js?project_id=GqFEptZsCwbS84lM"
+    href="http://localhost:8088/everloop.min.js?project_id=GqFEptZsCwbS84lM"
     as="script"
 />
 <script>
@@ -13,7 +13,7 @@
     w.EFQ = w.EFQ || [];
     w.EFQ.push({ config: { projectId: p, debug: !0 } });
     var j = d.createElement("script");
-    j.src = "https://cdn-dev.geteverloop.com/everloop.min.js?project_id=" + p;
+    j.src = "http://localhost:8088/everloop.min.js?project_id=" + p;
     j.async = 1;
     d.head.appendChild(j);
     })(window, document, "style", "GqFEptZsCwbS84lM");
